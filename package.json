@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "deploy": "now && now alias && now rm ad.glossboss.de --safe"
   },
   "now": {
     "alias": "ad.glossboss.de"
@@ -13,6 +14,7 @@
   "author": "Marvin Mieth <ntwcklng@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.15.4"
+    "express": "^4.15.4",
+    "gists": "^1.0.0"
   }
 }

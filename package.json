@@ -8,13 +8,14 @@
     "deploy": "now && now alias && now rm ad.glossboss.de --safe"
   },
   "now": {
-    "alias": "ad.glossboss.de"
+    "alias": "ad.glossboss.de",
+    "version": 1
   },
   "keywords": [],
   "author": "Marvin Mieth <ntwcklng@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "express": "^4.16.4",
-    "gists": "^2.0.0"
+    "gists": "^1.0.0"
   }
 }
